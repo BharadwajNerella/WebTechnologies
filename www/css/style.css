@@ -1,0 +1,92 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+section
+{
+    padding: 60px 0;
+}
+.btnsumbit
+{
+    display: block;
+}
+h1
+{
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 52px;
+}
+.banner p
+{
+    color: #333;
+    font-size: 14px;
+}
+h5
+{
+    font-size: 32px;
+}
+h6
+{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+.box
+{
+    position: relative;
+    padding: 10px;
+    margin-top: 30px;
+    border: 1px solid #dfdfdf;
+    text-align: center;
+}
+.box:hover
+{
+    border:2px solid gray;
+}
+
+.box span
+{
+    position: absolute;
+    top: 15px !important;
+    right: 15px ;
+}
+
+.banner
+{
+    background:url('../img/top.jpg') no-repeat center;
+    background-size:cover;
+    height:550px;
+    position: relative;
+    z-index: 1;
+}
+
+.bnav
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+z-index: 99;
+background:rgba(0,0,0,.7) !important;
+}
+.banner-text 
+{
+    background-color:rgb(255 255 255 / 73%) !important;
+    display:block;
+    border-radius:5px;
+    padding:20px;
+    margin-top:20px;
+}
+.checkico
+{
+    float:left;
+    margin-right:10px;
+    width:40px;
+}
+.contact-form 
+{
+    background-color:#d3d3d4;
+    border-radius:5px;
+    padding:20px;
+}
